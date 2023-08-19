@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
-    margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;list-style: 0;scroll-behavior: smooth;font-family: 'Roboto', sans-serif;7
+    margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;list-style: 0;scroll-behavior: smooth;font-family: 'Roboto', sans-serif;
 }
 
 .contant {
@@ -24,7 +24,9 @@
 .pokemons li {
     margin: .5rem;
     padding: 1rem;
+    background-color: #fff;
 }
+
 
 
 
