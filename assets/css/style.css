@@ -10,7 +10,8 @@ body {
 
 :root {
     --greencard-color: rgb(38, 163, 142);
-    --redcard-color: rgb(211, 56, 8);
+    --redcard-color: rgb(211, 86, 64);
+    --yellowcard-color: rgb(231, 216, 77);
     --bluecard-color: rgb(51, 118, 173);
     --btn-color: rgb(71, 163, 148);
     --text-color: rgb(255, 255, 255);
@@ -61,6 +62,18 @@ a i:hover {
     background-color: var(--greencard-color);
     display: flex;
     flex-direction: column;
+}
+
+#red {
+    background-color: var(--redcard-color);
+}
+
+#red .type {
+    background-color: var(--redcard-color);
+}
+
+#yellow {
+    background-color: var(--redcard-color);
 }
 
 .number {
