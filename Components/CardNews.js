@@ -24,7 +24,9 @@ class CardNews extends HTMLElement {
         
 
         const cardRight = document.createElement("div");
-        cardRight.setAttribute("class", card__Right)
+        cardRight.setAttribute("class", card__Right);
+        const newsImage = document.createElement("img");
+        cardRight.appendChild(newsImage);
 
         componentRoot.appendChild(cardLeft);
         componentRoot.appendChild(cardRight);
